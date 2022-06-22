@@ -49,6 +49,7 @@ def execute_k_means(clusters=4, minimum_movement=0.0000001, executions=20, itera
         print("Menor distância: %f" % total_shortest_distance)
         print("Na execução: %d" % print_best_exec)
         arrayResult[best_execution].plotar_mapa()
+        #print("teste")
 
 if __name__ == '__main__':
     execute_k_means()
